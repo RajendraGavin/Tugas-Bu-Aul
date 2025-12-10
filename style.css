@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #830000;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.sub {
+    margin-top: -10px;
+}
+
+.menu {
+    background: #d10000;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    background: #7a0000;
+}
+
+.konten {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+.foto {
+    width: 200px;
+    border: 2px solid #777;
+    border-radius: 5px;
+}
+
+input {
+    width: 250px;
+    padding: 7px;
+    border: 1px solid #aaa;
+}
+
+button {
+    padding: 8px 15px;
+    background: #830000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #550000;
+}
+
+.footer {
+    background: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 12px;
+    margin-top: 25px;
+}
